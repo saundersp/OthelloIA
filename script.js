@@ -97,10 +97,10 @@ canvas.onmousemove = e => {
 //Global Board
 let p;
 //For N*N board
-const nbCase = 6;
+const nbCase = 8;
 
 //IA depth of the minimax tree
-let depth = 10;
+const depth = 5;
 
 //Enable showing case number
 const __debug = false;
